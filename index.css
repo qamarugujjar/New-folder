@@ -1,0 +1,41 @@
+.box{
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    margin: 200px;
+    animation-name: sample;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration:alternative;
+}
+.bacbackground{
+    background-image: image();
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:70vh
+}
+.nav-wrapper{
+    background-color: green;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar li{
+    list-style-type: none;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
